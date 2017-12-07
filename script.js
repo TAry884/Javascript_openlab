@@ -21,3 +21,20 @@ function string() {
   c = "how is it going?" + " " + "i am pretty good"
   document.getElementById('string').innerHTML = a + "<br>" + b + "<br>" + c
 }
+
+function number() {
+  var y, x
+  y = 123e5
+  x = 456e-5
+  document.getElementById("number").innerHTML = y + "<br>" + x
+}
+
+function string2() {
+  var person = {
+    FirstName: "Ty",
+    LastName: "Ary",
+    age: 16,
+    eyecolor: "blue"
+  }
+  document.getElementById('person').innerHTML = person.FirstName + " is " + person.age + " years old with " + person.eyecolor + " eyes";
+}
